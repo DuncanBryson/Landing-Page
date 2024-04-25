@@ -13,22 +13,39 @@ body {
 
 .header {
     display: flex;
-    padding: 2vh 10vw;
+    align-items: center;
+    height: 8vh;
 }
 .header h3 {
     color: #F9FAF8;
     font-size: 24px;
+    padding-left: 10vw;
 }
 ul {
     display: flex;
     list-style: none;
     gap: 16px;
-    margin-left: auto;
+    /* margin-left: auto; */
+    padding-right: 10vw;
+    margin: 0 0 0 auto;
+    height: 8vh;
+    text-align: center;
 }
 
 li {
     margin-left: 0;
     padding: 0;
+    background-color: transparent;
+    align-self: center;
+    width: 6vw;
+}
+
+li:hover {
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 1vh;
+    height: 4vh;
+    padding-top: 2vh;
 }
 .content-1 {
     display: flex;
@@ -59,6 +76,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin: 10vh;
+    gap: 5vh;
 }
 h2 {
     font-size: 36px;
@@ -85,8 +103,7 @@ h2 {
     font-size: 36px;
     margin: 10vh;
 }
-/* Need to make 'light italic' maybe ask discord? */
-/* need to round blue box */
+
 .quote {
     font-weight: lighter;
     font-style: italic;
@@ -142,6 +159,11 @@ button {
     font-weight: bold;
     flex-shrink: 0;
     font-size: 18px;
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: #3374dc;
 }
 
 .left button {
