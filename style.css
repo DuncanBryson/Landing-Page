@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+}
+.content-1 {
+    display: flex;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+}
+.card-holder {
+    display: flex;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+}
+.box-4 {
+    display: flex;
+    flex-direction: column;
+}
+.blue-box {
+    display: flex;
+}
+.footer {
+    text-align: center;
+}
