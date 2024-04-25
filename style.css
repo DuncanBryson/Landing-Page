@@ -33,8 +33,15 @@ li {
 .content-1 {
     display: flex;
     padding: 5vh 10vw;
+    justify-content: space-between;
 }
 
+.content-1 .left {
+    width: 40vw;
+}
+.content-1 .subtext {
+    margin-bottom: 2vh;
+}
 .content-1 .subtext,
 li {
     color: #e5e7eb;
@@ -92,14 +99,16 @@ h2 {
 .blue-box {
     display: flex;
     background-color: #3882F6;
-    height: 10vh;
+    height: 15vh;
     width: 80vw;
     justify-content: space-around;
-    margin: 5vh;
+    align-items: center;
+    margin: 8vh;
 }
 .blue-box button {
-    border-width: 0.25vh;
+    border-width: 0.2vh;
     border-color: #e5e7eb;
+    border-style: solid;
 }
 .footer {
     text-align: center;
@@ -116,9 +125,20 @@ img {
     text-align: center;
     width: 12vw;
 }
+
 button {
     background-color: #3882F6;
     color: #e5e7eb;
+    height: 5vh;
+    width: 9em;
+    border-radius: 2vh;
+    font-weight: bold;
+    flex-shrink: 0;
+    font-size: 18px;
+}
+
+.left button {
+    border-style: none;
 }
 
 h3 {
