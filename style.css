@@ -6,33 +6,71 @@ body {
 .box-1 {
     display: flex;
     flex-direction: column;
-    padding: 8px, 72px;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+}
+.header h3 {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 ul {
     display: flex;
     list-style: none;
     gap: 16px;
+    margin-left: auto;
+}
+
+li {
+    margin-left: 0;
+    padding: 0;
 }
 .content-1 {
     display: flex;
+}
+
+.content-1 .subtext,
+li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .box-2 {
     display: flex;
     flex-direction: column;
 }
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
 .card-holder {
     display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
-.quote-box {
+.box-3 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.quote-box {
+    color: #1F2937;
+    width: 400px;
+}
+
+.author {
+    text-align: end;
 }
 .box-4 {
     display: flex;
@@ -40,9 +78,15 @@ ul {
 }
 .blue-box {
     display: flex;
+    background-color: #3882F6;
+}
+.blue-box button {
+    border-width: 2px;
+    border-color: #e5e7eb;
 }
 .footer {
     text-align: center;
+    background-color: #1F2937;
 }
 
 img {
@@ -51,4 +95,9 @@ img {
 
 .card .subtext {
     text-align: center;
+    width: 200px;
+}
+button {
+    background-color: #3882F6;
+    color: #e5e7eb;
 }
