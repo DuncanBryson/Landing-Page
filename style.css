@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .box-1 {
@@ -11,6 +13,7 @@ body {
 
 .header {
     display: flex;
+    padding: 8px 10vw;
 }
 .header h3 {
     color: #F9FAF8;
@@ -29,6 +32,7 @@ li {
 }
 .content-1 {
     display: flex;
+    padding: 5vh 10vw;
 }
 
 .content-1 .subtext,
@@ -41,21 +45,25 @@ h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .box-2 {
     display: flex;
     flex-direction: column;
+    margin: 10vh;
 }
 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    margin: 0;
 }
 .card-holder {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -66,7 +74,9 @@ h2 {
 }
 .quote-box {
     color: #1F2937;
-    width: 400px;
+    width: 60vw;
+    font-size: 36px;
+    margin: 10vh;
 }
 
 .author {
@@ -75,10 +85,17 @@ h2 {
 .box-4 {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 .blue-box {
     display: flex;
     background-color: #3882F6;
+    height: 10vh;
+    width: 80vw;
+    justify-content: space-around;
+    margin: 5vh;
 }
 .blue-box button {
     border-width: 2px;
@@ -87,10 +104,12 @@ h2 {
 .footer {
     text-align: center;
     background-color: #1F2937;
+    color: #e5e7eb;
 }
 
 img {
     width: 200px;
+    height: 200px;
 }
 
 .card .subtext {
@@ -101,3 +120,8 @@ button {
     background-color: #3882F6;
     color: #e5e7eb;
 }
+
+h3 {
+    margin: 0;
+}
+
