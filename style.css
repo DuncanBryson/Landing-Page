@@ -85,7 +85,12 @@ h2 {
     font-size: 36px;
     margin: 10vh;
 }
-
+/* Need to make 'light italic' maybe ask discord? */
+/* need to round blue box */
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+}
 .author {
     text-align: end;
 }
@@ -112,8 +117,10 @@ h2 {
 }
 .footer {
     text-align: center;
+    align-content: center;
     background-color: #1F2937;
     color: #e5e7eb;
+    height: 8vh;
 }
 
 img {
@@ -131,7 +138,7 @@ button {
     color: #e5e7eb;
     height: 5vh;
     width: 9em;
-    border-radius: 2vh;
+    border-radius: 1.5vh;
     font-weight: bold;
     flex-shrink: 0;
     font-size: 18px;
